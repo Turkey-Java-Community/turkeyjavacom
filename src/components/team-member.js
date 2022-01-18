@@ -1,10 +1,10 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
 
-class TeamMembers extends React.Component {
+class TeamMember extends React.Component {
     render() {
         return (
-            <div class="container mt-5">
+            <div className="container mt-5">
                 <div className="row justify-content-center">
                     {this.props.members.map((member) =>
                         <div className="col-lg-4  d-flex align-items-stretch">
@@ -34,6 +34,6 @@ class TeamMembers extends React.Component {
 }
 
 
-export default TeamMembers;
+export default TeamMember;
 
 

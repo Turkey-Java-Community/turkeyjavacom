@@ -7,10 +7,10 @@ import {
     Route,
     Link
 } from "react-router-dom";
-import TeamMembers from './TeamMembers';
+import TeamMember from './team-member';
 
 
-class TopBar extends React.Component {
+class NavBar extends React.Component {
     state = {
         members: [
             {
@@ -155,7 +155,7 @@ class TopBar extends React.Component {
             <Router>
                 <Switch>
                     <Route path="/about" component={About} />
-                    <Route path="/team" children={ <TeamMembers members={this.state.members} />} />
+                    <Route path="/team" children={ <TeamMember members={this.state.members} />} />
                     <Route path="/contact" component={Contact} />
                     <Route path="/" exact render={() => (
                         <div className="top-bar">
@@ -189,7 +189,7 @@ class TopBar extends React.Component {
     }
 }
 
-export default TopBar;
+export default NavBar;
 
 function About() {
     return <h2>About</h2>;
