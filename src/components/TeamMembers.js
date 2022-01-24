@@ -1,5 +1,6 @@
 import React from 'react';
 import { SocialIcon } from 'react-social-icons';
+import './TeamMember.css';
 
 class TeamMembers extends React.Component {
     render() {

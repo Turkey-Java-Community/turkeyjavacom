@@ -8,7 +8,7 @@ class App extends React.Component {
   
   render() {
     return (
-      <div className="App" id="main-wrapper" >
+      <div className="App" >
       <TopBar />
       <Footer />
       </div>  
