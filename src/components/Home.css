@@ -1,0 +1,12 @@
+.background {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 0;
+    max-height: 70vh;
+    background-size: cover;
+background: url('https://turkeyjava.com/wp-content/uploads/2020/11/bg-06-free-img.jpg');
+z-index: -1
+  }
+  
